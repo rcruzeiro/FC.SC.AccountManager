@@ -35,3 +35,7 @@ migrate: up
 .PHONY: prune
 prune: stop
 	docker system prune
+
+.PHONY: test
+test:
+	cd fc.sc.accountmanager.tests && dotnet test
