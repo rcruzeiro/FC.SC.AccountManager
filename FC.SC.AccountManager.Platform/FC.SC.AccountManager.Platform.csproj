@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+    <ItemGroup>
+        <Folder Include="Domain\" />
+        <Folder Include="Domain\Accounts\" />
+        <Folder Include="Infrastructure\" />
+        <Folder Include="Infrastructure\IOC\" />
+        <Folder Include="Application\" />
+        <Folder Include="Application\Accounts\" />
+        <Folder Include="Application\Accounts\Commands\" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\FC.SC.AccountManager.Repository\FC.SC.AccountManager.Repository.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.4" />
+        <PackageReference Include="MongoDB.Driver" Version="2.8.1" />
+        <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+        <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.2.0" />
+    </ItemGroup>
+</Project>

@@ -1,0 +1,48 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FC.SC.AccountManager.Repository", "FC.SC.AccountManager.Repository\FC.SC.AccountManager.Repository.csproj", "{4A3A090E-41E7-4FEE-B087-23140B9905AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FC.SC.AccountManager.Platform", "FC.SC.AccountManager.Platform\FC.SC.AccountManager.Platform.csproj", "{45052C5C-8022-4B07-9B9D-96B8ECAE500A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FC.SC.AccountManager.API", "FC.SC.AccountManager.API\FC.SC.AccountManager.API.csproj", "{FB050AB0-40A2-448B-979D-521C4541E112}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{045748FE-06E2-431F-8FEA-7ACB1975DC21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9598FE1C-0339-4907-AA26-D1B631A20320}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		Makefile = Makefile
+		Questions.txt = Questions.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FC.SC.AccountManager.Tests", "FC.SC.AccountManager.Tests\FC.SC.AccountManager.Tests.csproj", "{69F327A1-58CC-4165-9F93-0EBC9F5402CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A3A090E-41E7-4FEE-B087-23140B9905AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A3A090E-41E7-4FEE-B087-23140B9905AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A3A090E-41E7-4FEE-B087-23140B9905AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A3A090E-41E7-4FEE-B087-23140B9905AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45052C5C-8022-4B07-9B9D-96B8ECAE500A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45052C5C-8022-4B07-9B9D-96B8ECAE500A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45052C5C-8022-4B07-9B9D-96B8ECAE500A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45052C5C-8022-4B07-9B9D-96B8ECAE500A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB050AB0-40A2-448B-979D-521C4541E112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB050AB0-40A2-448B-979D-521C4541E112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB050AB0-40A2-448B-979D-521C4541E112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB050AB0-40A2-448B-979D-521C4541E112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{045748FE-06E2-431F-8FEA-7ACB1975DC21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{045748FE-06E2-431F-8FEA-7ACB1975DC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{045748FE-06E2-431F-8FEA-7ACB1975DC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{045748FE-06E2-431F-8FEA-7ACB1975DC21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69F327A1-58CC-4165-9F93-0EBC9F5402CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69F327A1-58CC-4165-9F93-0EBC9F5402CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69F327A1-58CC-4165-9F93-0EBC9F5402CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69F327A1-58CC-4165-9F93-0EBC9F5402CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

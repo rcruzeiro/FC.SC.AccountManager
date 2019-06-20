@@ -1,0 +1,14 @@
+﻿{
+    "Information": [ "Superdigital Account Manager Service" ],
+    "profile": "",
+    "region": "",
+    "configuration": "Release",
+    "framework": "netcoreapp2.2",
+    "function-runtime": "provided",
+    "function-memory-size": "512",
+    "function-timeout": 180,
+    "function-handler": "FC.SC.AccountManager::FC.SC.AccountManager.API.LambdaEntryPoint::FunctionHandlerAsync",
+    "function-name": "FC-SC-Account-Manager",
+    "tracing-mode": "PassThrough",
+    "msbuild-parameters": "--self-contained true"
+}

@@ -1,0 +1,19 @@
+﻿1) EXPLIQUE COM SUAS PALAVRAS O QUE É DOMAIN DRIVEN DESIGN E SUA IMPORTÂNCIA NA ESTRATÉGIA DE DESENVOLVIMENTO DE SOFTWARE.
+
+R.: Domain-Driven Design é uma das abordagens à modelagem de um software: com foco no domínio e bastante uso e atenção à orientação a objetos. O Domain-Driven Desing vem em contrapartida à outro DDD, o Data-Driven Design, que é uma abordagem focada no dado da aplicação em si.
+Além de induzir um cenário de melhoria contínua, seu aspecto voltado ao negócio (domínio) pode ser utilizado tanto por desenvolvedores, especialistas quanto por stakeholders, visto que a ferramenta auxilia numa melhor compreensão do problema, ajudando a delimitar fronteiras e melhorando na manutenção dos aplicativos que compõem o ambiente produtivo. Melhor utilizado quando vários times trabalham em conjunto.
+
+2) EXPLIQUE COM SUAS PALAVRAS O QUE É E COMO FUNCIONA UMA ARQUITETURA BASEADA EM MICROSERVICES. EXPLIQUE GANHOS COM ESTE MODELO E DESAFIOS EM SUA IMPLEMENTAÇÃO.
+
+R.: Microsserviço é um pedaço da aplicação capaz de operar de forma independente às demais. Seu contexto (leia-se: domínio) lhe pertence e deve ser gerido apenas sob sua responsabilidade. Contudo, isto não deve impedir outros microsserviços de compartilhar de um trecho deste domínio, desde que isto lhe faça sentido. O comparilhamento de seus recursos (banco de dados, por exemplo) deve ser feito somente através de sua interface (endpoints no caso de Web API's).
+Os ganhos são notáveis, uma vez que os serviços operam de forma independente e, com o tratamento de resiliência correto, podem até mesmo falhar sem causar pane geral do ambiente produtivo (environment). Além disto, com suas fronteiras bem delimitadas, é possível ter times especialistas em determinado serviço -ou um conjunto deles e, até mesmo, expor e precificar algumas funcionalidades (whitelabel) sem que o restante do ambiente precise ser exposto também.
+Os desafios se resumem, ao meu ver, a:
+   a. delimitar as fronteiras dos serviços;
+   b. segregar o legado (comumente monolítico) em serviços menores e realmente independentes (estragulamento) costuma ser bastante oneroso e;
+   c. o custo pode elevar-se rapidamente, dado à segregação dos recursos para atender cada serviço.
+
+3) EXPLIQUE QUAL A DIFERENÇA ENTRE COMUNICAÇÃO SINCRONA E ASSINCRONA E QUAL O MELHOR CENÁRIO PARA UTILIZAR UMA OU OUTRA.
+
+R.: Enquanto que em uma comunicação síncrona temos uma thread atuando em todos os blocos de código, um por um, e se mantém ocupada até o final da execução, em uma comunicação assíncrona temos a criação de threads separadas para o determinado bloco o que, em tese, pode "liberar" a primeira thread para seguir com sua operação sem precisar ficar aguardando o final daquele trecho de código.
+O assincronismo merece atenção quando o objetivo é melhorar a experiência do usuário, quando há uma operação que exige mais tempo para ser finalizada -ou cujo resultado não é impeditivo à thread principal (enviar um e-mail ao final de um processo de alteração de cadastro, é um exemplo). Observar que não deve ser usado para "tornar algo mais rápido".
+Um bom exemplo de comunicação assíncrona tem sido as páginas Web, onde nesses casos, podemos perceber o carregamento individual de cada trecho dessa página, melhorando -e muito, dessa forma, a navegação do usuário.

@@ -1,0 +1,8 @@
+﻿version: '3.4'
+
+services:
+  fc.sc.accountmanager.api:
+    image: ${DOCKER_REGISTRY-}fcscaccountmanager
+    build:
+      context: .
+      dockerfile: FC.SC.AccountManager.API/Dockerfile
