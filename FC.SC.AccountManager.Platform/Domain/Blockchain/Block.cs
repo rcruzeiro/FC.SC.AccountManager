@@ -4,7 +4,7 @@ using System.Security.Cryptography;
 using System.Text;
 using Newtonsoft.Json;
 
-namespace FC.SC.AccountManager.Platform.Infrastructure.Services.Blockchain.Models
+namespace FC.SC.AccountManager.Platform.Domain.Blockchain
 {
     public class Block
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using FC.SC.AccountManager.Platform.Infrastructure.Services.Blockchain.Models;
+using FC.SC.AccountManager.Platform.Domain.Blockchain;
 using MongoDB.Driver;
 
 namespace FC.SC.AccountManager.Platform.Infrastructure.Database.Mongo.Repositories

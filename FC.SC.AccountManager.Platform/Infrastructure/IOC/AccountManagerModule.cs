@@ -1,11 +1,11 @@
 ﻿using System;
 using FC.SC.AccountManager.Platform.Application.Accounts;
 using FC.SC.AccountManager.Platform.Domain.Accounts;
+using FC.SC.AccountManager.Platform.Domain.Blockchain;
+using FC.SC.AccountManager.Platform.Domain.Blockchain.Services;
 using FC.SC.AccountManager.Platform.Infrastructure.Database.Mongo.Repositories;
 using FC.SC.AccountManager.Platform.Infrastructure.Database.MySQL;
 using FC.SC.AccountManager.Platform.Infrastructure.Database.MySQL.Repositories;
-using FC.SC.AccountManager.Platform.Infrastructure.Services.Blockchain;
-using FC.SC.AccountManager.Platform.Infrastructure.Services.Blockchain.Models;
 using FC.SC.AccountManager.Repository;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;

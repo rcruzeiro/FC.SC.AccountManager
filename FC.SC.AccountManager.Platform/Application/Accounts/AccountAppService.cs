@@ -4,10 +4,10 @@ using System.Threading;
 using System.Threading.Tasks;
 using FC.SC.AccountManager.Platform.Application.Accounts.Commands;
 using FC.SC.AccountManager.Platform.Application.Accounts.DTO;
-using FC.SC.AccountManager.Platform.Application.Accounts.Specifications;
 using FC.SC.AccountManager.Platform.Domain.Accounts;
-using FC.SC.AccountManager.Platform.Infrastructure.Services.Blockchain;
-using FC.SC.AccountManager.Platform.Infrastructure.Services.Blockchain.Models;
+using FC.SC.AccountManager.Platform.Domain.Accounts.Specifications;
+using FC.SC.AccountManager.Platform.Domain.Blockchain;
+using FC.SC.AccountManager.Platform.Domain.Blockchain.Services;
 
 namespace FC.SC.AccountManager.Platform.Application.Accounts
 {

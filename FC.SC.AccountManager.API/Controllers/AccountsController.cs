@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using FC.SC.AccountManager.Platform.Application.Accounts;
 using FC.SC.AccountManager.Platform.Application.Accounts.Commands;
 using FC.SC.AccountManager.Platform.Application.Accounts.DTO;
-using FC.SC.AccountManager.Platform.Application.Accounts.Specifications;
+using FC.SC.AccountManager.Platform.Domain.Accounts.Specifications;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FC.SC.AccountManager.API.Controllers

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace FC.SC.AccountManager.Platform.Infrastructure.Services.Blockchain.Models
+namespace FC.SC.AccountManager.Platform.Domain.Blockchain
 {
     public abstract class Blockchain
     {

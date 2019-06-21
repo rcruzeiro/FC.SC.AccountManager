@@ -12,6 +12,10 @@
         <Folder Include="Application\" />
         <Folder Include="Application\Accounts\" />
         <Folder Include="Application\Accounts\Commands\" />
+        <Folder Include="Domain\Blockchain\" />
+        <Folder Include="Infrastructure\Providers\" />
+        <Folder Include="Domain\Blockchain\Services\" />
+        <Folder Include="Domain\Accounts\Specifications\" />
     </ItemGroup>
     <ItemGroup>
         <ProjectReference Include="..\FC.SC.AccountManager.Repository\FC.SC.AccountManager.Repository.csproj" />

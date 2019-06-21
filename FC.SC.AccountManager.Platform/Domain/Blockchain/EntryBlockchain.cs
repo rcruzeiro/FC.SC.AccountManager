@@ -1,6 +1,6 @@
 ﻿using MongoDB.Bson;
 
-namespace FC.SC.AccountManager.Platform.Infrastructure.Services.Blockchain.Models
+namespace FC.SC.AccountManager.Platform.Domain.Blockchain
 {
     public class EntryBlockchain : Blockchain
     {

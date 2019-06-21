@@ -1,7 +1,6 @@
-﻿using FC.SC.AccountManager.Platform.Domain.Accounts;
-using FC.SC.AccountManager.Repository;
+﻿using FC.SC.AccountManager.Repository;
 
-namespace FC.SC.AccountManager.Platform.Application.Accounts.Specifications
+namespace FC.SC.AccountManager.Platform.Domain.Accounts.Specifications
 {
     public sealed class GetAccountSpecification : BaseSpecification<Account>
     {
